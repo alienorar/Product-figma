@@ -1,0 +1,38 @@
+.join{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #02897A;
+    align-items: center;
+    border-radius: 20px;
+    .join_info{
+        display: flex;
+        flex-direction: column;
+       gap: 50px;
+      h1{
+        font-family: Poppins;
+font-size: 32px;
+font-weight: 600;
+line-height: 48.45px;
+color: aliceblue;
+
+      }
+      button{
+width: 150px;
+height: 50px;
+background-color: aliceblue;
+color: #02897A;
+border: none;
+font-family: Poppins;
+border-radius: 10px;
+cursor: pointer;
+transition: all 0.4s linear;
+      }
+      button:hover{
+       border:1.5px solid #ffffff;
+       background-color: #02897A;
+       color: #ffffff;
+      }
+    }
+}

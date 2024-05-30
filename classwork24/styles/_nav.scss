@@ -1,0 +1,76 @@
+nav{
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    background-color: #053338;
+    box-shadow: 10px 10px 5px rgb(2, 139, 128);
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+     
+        .nav_logo{
+            cursor: pointer;
+            display: flex;
+            gap: 20px;
+            align-items:center;
+        }
+        .nav_list{
+            display: flex;
+            gap: 30px;
+            align-items: center;
+    
+             .nav_link{
+                text-decoration: none;
+                color: #DDE4E4;
+                font-family: Poppins;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0.3199999928474426px;
+                transition: all 0.3s linear;
+            
+            }
+        
+             .nav_link:hover {
+                border-bottom: 2px solid rgb(2, 139, 128);
+                // font-size: 26px;
+                color: rgb(2, 139, 128);
+            }
+        }
+        .nav_btns{
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            img{
+                cursor: pointer;   
+            }
+        }
+    
+        
+         button {
+            background: linear-gradient(2.79deg, #04867b -13.68%, rgba(4, 124, 118, 0.75) 121.16%);
+               color: #FFFFFF;
+               font-family: Poppins;
+               font-size: 13px;
+               font-weight: 400;
+               line-height: 24px;
+               letter-spacing: 0.14000000059604645px;
+               width: 106px;
+               height: 40px;
+               align-items: center;
+               border-radius: 6px;
+               cursor: pointer;
+               border: none;
+           }
+     button:hover {
+            border: 2.5px solid rgb(2, 139, 128);
+            transition: 0.4s;
+            font-size: 18px;
+            background: transparent;
+            color: rgb(2, 139, 128);
+        }
+    }
+    }

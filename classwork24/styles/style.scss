@@ -1,0 +1,37 @@
+@use"./nav";
+@use"./hero";
+@use"./product";
+@use"./management";
+@use"./process";
+@use"./contents";
+@use"./price";
+@use"./clients";
+@use"./join";
+@use"./footer";
+
+@font-face {
+    font-family: Poppins;
+    src: url(/Poppins/Poppins-Light.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #1F2E35;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+
+
