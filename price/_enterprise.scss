@@ -1,0 +1,58 @@
+.enterprise{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: azure;
+    gap: 10px;
+    background-color: #22343D;
+    padding: 30px;
+
+    h2{
+        font-family: Poppins;
+font-size: 24px;
+font-weight: 600;
+line-height: 36px;
+
+
+    }
+    h1{
+        font-family: Poppins;
+font-size: 34px;
+font-weight: 700;
+line-height: 51px;
+
+
+    }
+    p{
+        font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+
+
+    }
+    button{
+padding: 11px 18px ;
+border-radius: 8px;
+color: aliceblue;
+background-color: #02897A;
+transition: all 0.4s linear;
+border: 2.5px solid transparent;
+font-family: Poppins;
+font-size: 18px;
+font-weight: 600;
+line-height: 21.94px;
+
+
+    }
+    button:hover {
+        border: 2.5px solid rgb(2, 139, 128);
+        font-size: 18px;
+        background: #fff;
+        color: rgb(2, 139, 128);
+
+    }
+
+}

@@ -1,0 +1,462 @@
+nav {
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  background-color: #053338;
+  box-shadow: 10px 10px 5px rgb(2, 139, 128);
+}
+nav .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+nav .navbar .nav_logo {
+  cursor: pointer;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+nav .navbar .nav_list {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+nav .navbar .nav_list .nav_link {
+  text-decoration: none;
+  color: #DDE4E4;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3199999928px;
+  transition: all 0.3s linear;
+}
+nav .navbar .nav_list .nav_link:hover {
+  border-bottom: 2px solid rgb(2, 139, 128);
+  color: rgb(2, 139, 128);
+}
+nav .navbar .nav_btns {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+nav .navbar .nav_btns img {
+  cursor: pointer;
+}
+nav .navbar button {
+  background: linear-gradient(2.79deg, #04867b -13.68%, rgba(4, 124, 118, 0.75) 121.16%);
+  color: #FFFFFF;
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.1400000006px;
+  width: 106px;
+  height: 40px;
+  align-items: center;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+}
+nav .navbar button:hover {
+  border: 2.5px solid rgb(2, 139, 128);
+  transition: 0.4s;
+  font-size: 18px;
+  background: transparent;
+  color: rgb(2, 139, 128);
+}
+
+.price_title {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.price_title h2 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  color: #eeeaea;
+}
+.price_title h1 {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;
+  color: #ffffff;
+}
+.price_title p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #DDE4E4;
+}
+
+.price {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.price .price_card {
+  width: 30%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px rgb(2, 139, 128);
+  transition: all 0.4s linear;
+}
+.price .price_card h2 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #22343D;
+}
+.price .price_card p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #22343D;
+}
+.price .price_card .price_numbers {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+}
+.price .price_card .price_numbers h1 {
+  font-family: Poppins;
+  font-size: 76px;
+  font-weight: 700;
+  line-height: 100px;
+  color: #04867b;
+}
+.price .price_card .price_numbers h2 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #04867b;
+}
+.price .price_card .price_numbers p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.1000000015px;
+  color: #AFAFAF;
+}
+.price button {
+  background-color: #04867b;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  border: none;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.price button:hover {
+  border: 2.5px solid rgb(2, 139, 128);
+  font-size: 18px;
+  background: #fff;
+  color: rgb(2, 139, 128);
+}
+.price .price_card:hover {
+  background-color: #04867b;
+}
+.price .price_card:hover h1 {
+  color: #DDE4E4;
+}
+.price .price_card:hover h2 {
+  color: #DDE4E4;
+}
+.price .price_card:hover p {
+  color: #DDE4E4;
+}
+.price .price_card:hover button {
+  border: 1px solid #fff;
+}
+
+.enterprise {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: azure;
+  gap: 10px;
+  background-color: #22343D;
+  padding: 30px;
+}
+.enterprise h2 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+}
+.enterprise h1 {
+  font-family: Poppins;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 51px;
+}
+.enterprise p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+.enterprise button {
+  padding: 11px 18px;
+  border-radius: 8px;
+  color: aliceblue;
+  background-color: #02897A;
+  transition: all 0.4s linear;
+  border: 2.5px solid transparent;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.94px;
+}
+.enterprise button:hover {
+  border: 2.5px solid rgb(2, 139, 128);
+  font-size: 18px;
+  background: #fff;
+  color: rgb(2, 139, 128);
+}
+
+.management {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.management .mg_info {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.management .mg_info h1 {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  color: #ffffff;
+}
+.management .mg_info p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: #ffffff;
+}
+.management .mg_info h3 {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.questions {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.questions_title {
+  color: aliceblue;
+  font-family: Poppins;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 51px;
+  text-align: center;
+}
+.questions_info {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  color: aliceblue;
+}
+.questions .question {
+  display: flex;
+  padding: 20px 0px;
+  gap: 10px;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+.questions .question span {
+  color: #02897A;
+  font-size: 22px;
+}
+.questions .question span:hover {
+  color: #f0f6f5;
+}
+.questions .question h2 {
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 27px;
+  color: aliceblue;
+}
+.questions .question p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #f0f6f5;
+}
+
+.join {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #02897A;
+  align-items: center;
+  border-radius: 20px;
+}
+.join .join_info {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.join .join_info h1 {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48.45px;
+  color: aliceblue;
+}
+.join .join_info button {
+  width: 150px;
+  height: 50px;
+  background-color: aliceblue;
+  color: #02897A;
+  border: none;
+  font-family: Poppins;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.4s linear;
+}
+.join .join_info button:hover {
+  border: 1.5px solid #ffffff;
+  background-color: #02897A;
+  color: #ffffff;
+}
+
+.footer {
+  padding: 30px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .footer_actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer .footer_list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer .footer_list .footer_link {
+  text-decoration: none;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 35px;
+  color: aliceblue;
+}
+.footer .footer_btns {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer .footer_btns h1 {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  color: aliceblue;
+}
+.footer .footer_btns input {
+  padding: 10px;
+  width: 325px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+.footer .footer_btns button {
+  width: 131px;
+  height: 39px;
+  background-color: #02897A;
+  color: aliceblue;
+  border-radius: 10px;
+  border: none;
+}
+.footer .footer_btns button:hover {
+  border: 2.5px solid rgb(2, 139, 128);
+  transition: 0.4s;
+  font-size: 18px;
+  background: transparent;
+  color: rgb(2, 139, 128);
+}
+
+.footer_nav {
+  padding: 40px;
+}
+.footer_nav h1 {
+  font-family: Poppins;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+  color: aliceblue;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(/Poppins/Poppins-Light.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  background: #1F2E35;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}

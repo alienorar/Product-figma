@@ -1,0 +1,40 @@
+ .management {
+    margin-top: 80px;
+        display: flex;
+        align-items: center;
+        // justify-content: space-between;
+        gap: 30px;
+
+        .mg_info {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+
+            h1 {
+                font-family: Poppins;
+                font-size: 32px;
+                font-weight: 700;
+                line-height: 48px;
+                text-align: left;
+                color: #ffffff;
+            }
+
+            p {
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px;
+                text-align: left;
+                color: #ffffff;
+            }
+
+            h3 {
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 26px;
+                text-align: left;
+                color: #ffffff;
+            }
+        }
+    }

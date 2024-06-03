@@ -1,0 +1,152 @@
+.price_title{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    h2{
+        font-family: Poppins;
+font-size: 24px;
+font-weight: 600;
+line-height: 36px;
+color: #eeeaea;
+
+    }
+h1{
+font-family: Poppins;
+font-size: 40px;
+font-weight: 700;
+line-height: 60px;
+text-align: center;
+color: #ffffff;
+}
+p{
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+color: #DDE4E4;
+
+}
+}
+
+
+.price {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+
+   
+    .price_card {
+        width: 30%;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px rgb(2, 139, 128);
+        transition: all 0.4s linear;
+
+        h2 {
+            font-family: Poppins;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 40px;
+            color: #22343D;
+
+        }
+
+        p {
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 40px;
+            color: #22343D;
+        }
+
+        .price_numbers {
+            display: flex;
+            gap: 3px;
+            align-items: center;
+
+            h1 {
+                font-family: Poppins;
+                font-size: 76px;
+                font-weight: 700;
+                line-height: 100px;
+                color: #04867b;
+            }
+
+            h2 {
+                font-family: Poppins;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 30px;
+                color: #04867b;
+
+            }
+
+            p {
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 19px;
+                letter-spacing: 0.10000000149011612px;
+                color: #AFAFAF;
+
+            }
+        }
+    }
+
+
+
+
+    button {
+        background-color: #04867b;
+        width: 150px;
+        height: 50px;
+        border-radius: 10px;
+        color: #ffffff;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        border: none;
+        transition: 0.4s;
+        cursor: pointer;
+    }
+
+    button:hover {
+        border: 2.5px solid rgb(2, 139, 128);
+        font-size: 18px;
+        background: #fff;
+        color: rgb(2, 139, 128);
+
+    }
+
+    .price_card:hover {
+        background-color: #04867b;
+
+    }
+
+    .price_card:hover h1 {
+        color: #DDE4E4;
+    }
+
+    .price_card:hover h2 {
+        color: #DDE4E4;
+    }
+
+    .price_card:hover p {
+        color: #DDE4E4;
+    }
+
+    .price_card:hover button {
+        border: 1px solid #fff;
+    }
+}

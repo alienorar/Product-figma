@@ -2,7 +2,7 @@ nav {
   top: 0;
   left: 0;
   right: 0;
-  position: fixed;
+  position: fixedgit;
   background-color: #053338;
   box-shadow: 10px 10px 5px rgb(2, 139, 128);
 }
@@ -544,7 +544,6 @@ nav .navbar button:hover {
   background-color: #fff;
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 10px 10px 5px rgb(2, 139, 128);
 }
 .clients .clients_card span {
   color: rgb(243, 200, 8);
@@ -690,7 +689,6 @@ nav .navbar button:hover {
   margin: 0;
   box-sizing: border-box;
   list-style: none;
-  scroll-behavior: smooth;
 }
 
 body {

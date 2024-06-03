@@ -1,13 +1,11 @@
-@use"./nav";
-@use"./hero";
-@use"./product";
+@use"./price_header";
+@use"./_price_tables";
+@use"./enterprise";
 @use"./management";
-@use"./process";
-@use"./contents";
-@use"./price";
-@use"./clients";
+@use"./questions";
 @use"./join";
 @use"./footer";
+
 
 @font-face {
     font-family: Poppins;
@@ -31,6 +29,3 @@ body {
     margin: 0 auto;
 
 }
-
-
-
