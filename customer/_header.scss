@@ -1,0 +1,183 @@
+header {
+    position: sticky;
+    top: 0;
+    background-color: #1F2E35;
+    padding: 0 150px;
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 80px;
+        width: 100%;
+
+        .nav_logo{
+
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            cursor: pointer;
+
+
+        }
+        .nav_list {
+            display: flex;
+            gap: 20px;
+        
+
+
+            .nav_link {
+                color: #DDE4E4;
+    
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0.3199999928474426px;
+                cursor: pointer;
+                transition: all 0.3s linear;
+
+            }
+
+            .nav_link:hover {
+                border-bottom: 2px solid rgb(2, 139, 128);
+                // font-size: 26px;
+                color: rgb(2, 139, 128);
+            }
+        }
+
+        .nav_link:hover {
+            border-bottom: 2px solid rgb(2, 139, 128);
+            // font-size: 26px;
+            color: rgb(2, 139, 128);
+        }
+
+        .nav_actions {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            button {
+                font-size: 13px;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0.14000000059604645px;
+                padding: 12px 35px;
+                align-items: center;
+                border-radius: 6px;
+                cursor: pointer;
+                border: 2.5px solid transparent;
+            }
+
+            .SignIn {
+                color: #FFFFFF;
+                background-color: #04867b;
+            }
+
+            .SignUp {
+                color: #FFFFFF;
+                background-color: #04867b;
+            }
+
+            .nav-user{
+                font-size: 20px;
+                color: #04867b;
+                background-color: #fff;
+                width: 32px;
+                height: 32px;
+                border-radius: 50%;
+                padding: 0;
+                display: none;
+            }
+            .hamburger{
+                font-size: 20px;
+                color: #04867b;
+                background-color: #fff;
+                width: 32px;
+                height: 32px;
+                border-radius: 50%;
+                padding: 0;
+                display: none;
+            }
+        }
+
+        .SignIn ,.SignUp:hover {
+            border: 2.5px solid rgb(2, 139, 128);
+            transition: 0.4s;
+            // font-size: 18px;
+            background: transparent;
+            color: rgb(2, 139, 128);
+        }
+    }
+}
+
+@media(max-width:1400px){
+    header {
+        padding: 0px 50px;
+    }
+}
+
+@media (max-width:1200px) {
+    header {
+        padding: 0px 30px;
+    }
+}
+
+@media (max-width:992px) {
+    header {
+        padding: 0px 20px;
+        .navbar{
+            .nav_logo{
+                gap: 5px;
+                .navlogo-st{
+                    width: 25px;
+                }
+                .navlogo-nd{
+                    width: 80px;
+                }
+            }
+            .nav_list{
+                .nav_item{
+                    .nav_link{
+                        font-size: 14px;
+                    }
+                }
+            }
+            .nav_actions{
+                .SignIn, .SignUp{
+                    padding: 5px 20px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:768px) {
+    header {
+        padding: 0px 10px;
+        .navbar{
+            .nav_list{
+                display: none;
+            }
+            .nav_actions{
+                .hamburger{
+                    display: block;
+                }
+            }
+        }
+    }
+}
+@media (max-width:576px) {
+    header {
+        padding: 0px 10px;
+        .navbar{
+            .nav_actions{
+                .nav-user{
+                    display: block;
+                }
+                .SignIn, .SignUp{
+                    display: none;
+                }
+            }
+        }
+    }
+}
